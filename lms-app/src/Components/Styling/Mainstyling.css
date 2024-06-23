@@ -1,0 +1,159 @@
+@font-face {
+    font-family: AudioWide;
+    src: url("C:\Users\vyshn_dy6zpym\OneDrive\Desktop\Futura\Main Project\React\lms-app\public\Audiowide-Regular.ttf");
+}
+
+@font-face {
+    font-family: ChakraPetch;
+    src:url("C:\Users\vyshn_dy6zpym\OneDrive\Desktop\Futura\Main Project\React\lms-app\public\Jura-VariableFont_wght.ttf") ;
+}
+
+
+
+#body{
+    font-family:ChakraPetch ;
+    background-color: #EAE8DC;
+    height: 100vh;
+}
+
+#body2{
+    background-color: #EAE8DC;
+    height: 100vh;
+    font-family:ChakraPetch ;
+
+}
+
+#Heading{
+    color: #be2623;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: AudioWide;
+}
+#body3{
+    background-color: #EAE8DC;
+    height: 100vh;
+    font-family:ChakraPetch ;
+}
+
+#ProfileButton:hover{
+    background-color: #f4f2ec;
+    border-color: #0e3746;
+    color: #0e3746;
+    transition-duration: 0.8s;
+    font-size: 60px;
+}
+#ProfileButton{
+    background-color: #0e3746;
+    border-color: #0e3746;
+    color: #EAE8DC;
+    transition-duration: 0.8s;
+    border-width: 3px;
+    margin-top: 80px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+}
+
+#profileicon{
+    font-size: 45px;   
+}
+
+#table{
+    width: 450px;
+}
+
+#tablebg{
+    background-color: #0e3746;
+    width: 500px;
+    border-radius: 30px;
+    color: #EAE8DC;
+}
+
+#input{
+    width: 300px;
+    height: 25px;
+    border-width: 0px;
+    background-color: #ffffff;
+    margin: 20px;
+    color: #0e3746;
+}
+
+#input:focus{
+    outline: none;
+}
+
+#functionButton{
+    background-color: #be2623;
+    border-color: #be2623;
+    color: #f4f2ec;
+    margin-top: 20px;
+    width: 130px;
+    border-radius: 50px;
+    border-width: 2px;
+    margin: 10px;
+    transition-duration: 0.8s;
+    font-weight: bold;
+}
+#functionButton:hover{
+    background-color: #f4f2ec;
+    color: #be2623;
+    transition-duration: 0.8s;
+}
+
+#login{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+#classrooms{
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    border-radius: 10px;
+    height: 100px;
+    margin: 20px;
+    padding-top: 25px;
+    padding-right: 15px;
+    color: #f4f2ec; 
+    opacity: 0.9; 
+}
+
+.color-box-0 {
+    background-color: #0e3746;
+  }
+  
+  .color-box-1 {
+    background-color: #be2623;
+  }
+  
+
+#MainHeading{
+    color: #EAE8DC;
+    font-weight: bold;
+    text-align: center;
+    font-family: ChakraPetch;
+}
+
+#classdetail{
+    background-color: #0e3746;
+    width: 450px;
+    border-radius: 50px;
+    margin: 50px;
+    text-align: left;
+    padding-left: 45px;
+    color: #EAE8DC
+}
+
+#copylink{
+    border-width: 0px;
+    margin: 15px;
+}
+
+.subHead{
+    color: #EAE8DC;
+    font-weight: bold;
+}

@@ -1,0 +1,272 @@
+@font-face {
+    font-family: AudioWide;
+    src: url("C:\Users\vyshn_dy6zpym\OneDrive\Desktop\Futura\Main Project\React\lms-app\public\Audiowide-Regular.ttf");
+}
+
+@font-face {
+    font-family: ChakraPetch;
+    src:url("C:\Users\vyshn_dy6zpym\OneDrive\Desktop\Futura\Main Project\React\lms-app\public\Jura-VariableFont_wght.ttf") ;
+}
+
+#materials1{
+    color: #0e3746;
+    margin-left: 50px;
+    display:flex ;
+    flex-wrap: wrap;
+}
+
+#materials2{
+    margin: 5px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#materialIcon{
+    font-size: 45px;
+}
+
+#upload{
+    color: #0e3746;
+}
+
+#subHead2{
+    color: #0e3746;
+    font-weight: bold;
+}
+
+#submission{
+    background-color: #eae8dc;
+    border-color: #0e3746;
+    border-radius: 0px;
+    height: 30px;
+    padding: 2px;
+    border-width: 1.5px;
+    color: #0e3746;
+}
+
+#functionButton2{
+    background-color: #BE2623;
+    border-color: #BE2623;
+    color: #F4F2EC;
+    margin-top: 20px;
+    width: 170px;
+    border-radius: 50px;
+    border-width: 2px;
+    margin: 10px;
+    transition-duration: 0.8s;
+}
+#functionButton2:hover{
+    background-color: #f4f2ec;
+    color: #BE2623;
+    transition-duration: 0.8s;
+}
+
+#open{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #0e3746;
+}
+
+#nav{
+    background-color: #0e3746;
+    height: 80px;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+    display: none; 
+  }
+
+.nav2{
+    margin-left: 860px;  
+    font-size: 25px ;
+  }
+
+.Link{
+    color: #eae8dc;
+    margin-left: 30px
+}
+
+.Link2{
+    color: #0e3746;
+    margin-left: 3px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#LOGIN{
+    margin-top: -7px;
+}
+
+#logo{
+    font-size: 50px;
+    color: #eae8dc;
+}
+
+#logo2{
+    font-size: 70px;
+    color: #BE2623;
+    margin-bottom: 15px;
+}
+
+#back{
+    font-size: 30px;
+    margin-left: 15px;
+    color: #BE2623;
+    cursor: pointer;
+}
+
+#MainHeading2{
+    color: #0e3746;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dropicon{
+    font-size: 22px;
+}
+
+#DeleteIcon{
+    font-size: 25px;
+    color: #BE2623;
+    margin-bottom: 10px;
+    background-color: #eae8dc;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+
+#foot{
+    height: 80px;
+    background-color: #0e3746;
+}
+
+
+#footer{
+    color: #be2623;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: AudioWide;
+}
+#messagearea{
+    height: 400px;
+    background-color: #f4f2ec;
+    width: 600px;
+    border-radius: 20px;
+    text-align: left;
+    overflow-y: auto;
+    padding-left: 20px;
+
+}
+
+#message1{
+    color: #eae8dc;
+    font-weight: bold;
+}
+
+#message2{
+    color:white ;
+    font-weight: lighter;
+}
+
+#time{
+    font-size: 10px;
+    float: right;
+}
+
+#messagebox{
+    width: 300px;
+    background-color:#BE2623 ;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin: 5px;
+    padding-right: 10px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    opacity: 0.8;
+    border-width: 2px;
+    float: right;
+}
+#messagebox2{
+    width: 300px;
+    background-color:#0e3746 ;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin: 5px;
+    padding-right: 10px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    opacity: 0.8;
+    border-width: 2px;
+}
+#input2{
+    width: 420px;
+    background-color: #F4F2EC;
+    /* border: none; */
+    height: 40px;
+    border: 1px solid #0e3746;
+    border-radius: 10px;
+    
+}
+
+#landing1{
+    font-size: 25px;
+    text-align: left;
+    margin: 55px;
+    font-weight: bold;
+    color: #0e3746;
+    font-style: italic;
+}
+
+#landing2{
+    font-size: 25px;
+    font-style: italic;
+    color: #BE2623;
+}
+
+#landing3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #0e3746;
+    font-family: Peralta;
+}
+
+@font-face {
+    font-family:Peralta ;
+    src: url("C:\Users\vyshn_dy6zpym\OneDrive\Desktop\Futura\Main Project\React\lms-app\public\Peralta-Regular.ttf");
+}
+#body4{
+    background-color: #0e3746;
+    font-family: ChakraPetch;
+}
+#landing4{
+    font-size: 20px;
+    color: #0e3746;
+    font-family:ChakraPetch ;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  #landing3,#landing1{
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  #landing4{
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  #Heading{
+    animation: fadeIn 1.5s ease-in-out;
+  }
+
+  
